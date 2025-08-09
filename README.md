@@ -24,3 +24,37 @@ In this project, I:
 ---
 
 ## 📂 Repository Structure
+covid-analysis/
+│
+├── covid_india_analysis.ipynb # Main Jupyter notebook with code & plots
+├── data/ # Dataset(s)
+└── README.md # Project documentation
+
+yaml
+Copy
+Edit
+
+---
+
+## 📸 Sample Plots
+### Total Cases & Deaths Over Time
+![Total Cases vs Deaths](assets/total_cases_deaths.png)
+
+### New Cases vs New Deaths
+![New Cases vs New Deaths](assets/new_cases_deaths.png)
+
+---
+
+## 🚀 How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Somak123/covid-analysis.git
+   cd covid-analysis```
+
+2. Install dependencies:
+```conda create -n covid-analysis python=3.10
+conda activate covid-analysis
+pip install -r requirements.txt```
+
+3. Open the Jupyter Notebook:
+  jupyter notebook covid_india_analysis.ipynb
